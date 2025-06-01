@@ -1,0 +1,4 @@
+# Sobre a biblioteca java-mapstruct
+Finalmente uma biblioteca de conversão simples e efetiva.
+
+Li a documentação bem rapidamente e fiz uns testes aqui.

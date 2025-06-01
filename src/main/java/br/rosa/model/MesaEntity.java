@@ -16,13 +16,18 @@ public class MesaEntity {
 	private Long id;
 	private String nome;
 	private Date dataCriacao;
-	private List<Long> listaNumeros;
+	private List<Integer> listaNumeros;
 
 	public MesaEntity() {
 		super();
 	}
 
-	public MesaEntity(Long id, String nome, Date dataCriacao, List<Long> listaNumeros) {
+	public MesaEntity(Long id, String nome) {
+		this.id = id;
+		this.nome = nome;
+	}
+
+	public MesaEntity(Long id, String nome, Date dataCriacao, List<Integer> listaNumeros) {
 		this.id = id;
 		this.nome = nome;
 		this.dataCriacao = dataCriacao;
@@ -53,11 +58,11 @@ public class MesaEntity {
 		this.dataCriacao = dataCriacao;
 	}
 
-	public List<Long> getListaNumeros() {
+	public List<Integer> getListaNumeros() {
 		return listaNumeros;
 	}
 
-	public void setListaNumeros(List<Long> listaNumeros) {
+	public void setListaNumeros(List<Integer> listaNumeros) {
 		this.listaNumeros = listaNumeros;
 	}
 

@@ -1,5 +1,7 @@
 package br.rosa.dto;
 
+import java.util.List;
+
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -19,4 +21,6 @@ public interface MesaMapper {
 
 	@InheritInverseConfiguration
 	MesaEntity dtoParaEntity(MesaDTO mesaDTO);
+
+	List<MesaDTO> entityParaDTOs(List<MesaEntity> listaMesa);
 }

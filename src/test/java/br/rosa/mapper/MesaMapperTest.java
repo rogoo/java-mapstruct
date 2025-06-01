@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import br.rosa.dto.MesaDTO;
-import br.rosa.dto.MesaMapper;
 import br.rosa.model.MesaEntity;
 
 public class MesaMapperTest {

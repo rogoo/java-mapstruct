@@ -1,4 +1,4 @@
-package br.rosa.dto;
+package br.rosa.mapper;
 
 import java.util.List;
 
@@ -7,6 +7,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
+import br.rosa.dto.MesaDTO;
 import br.rosa.model.MesaEntity;
 
 @Mapper
